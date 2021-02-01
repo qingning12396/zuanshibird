@@ -1,0 +1,321 @@
+#head{
+    width: 100%;
+    height: 84px;
+    background: #fff
+}
+#head .header{
+    width: 100%;
+    height:6px;
+    background: #efd8d2;
+}
+#head .head-con{
+    width: 1200px;
+    height: 84px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.head-con h1{
+   line-height: 84px;
+   float: left;
+}
+.head-con ul{
+    float: left;
+    cursor: pointer;
+}
+.head-con li{
+    float: left;
+    line-height: 84px;
+    margin-left:60px;
+}
+.head-con ol{
+    float: left;
+    margin-left: 135px;
+    cursor: pointer;
+}
+.head-con ol li{
+    float: left;
+    margin-left: 38px;
+} 
+.head-con ol p{
+    float: left;
+    margin-left: 10px;
+    line-height: 84px;
+}
+#center{
+    width: 100%;
+    height: 645px;
+    position: relative;
+} 
+#center .center-con{
+    width: 1200px;
+    height: 645px;
+    margin: 0 auto;
+    /* background: pink; */
+}
+#center .bg{
+    float: left;
+    margin-top: 135px;
+    margin-left: 65px;
+}
+#center .right{
+    width: 450px;
+    height: 390px;
+    float: right;
+    position: relative;
+    overflow: hidden;
+    margin-top: 130px;
+}
+#center .author_title{
+    width: 440px;
+    height: 55px;
+}
+#center .phone_login,.password_login{
+    cursor: pointer;
+    width: 220px;
+    height: 55px;
+    line-height: 55px;
+    border-bottom: 2px solid #ccc;
+    float: left;
+    font-family: Arial,'宋体';
+    font-size: 24px;
+    color: #ccc;
+}
+#phone, #phone2 {
+    width: 438px;
+    height: 46px;
+    line-height: 46px;
+    background: none;
+    border: 1px solid #000;
+    margin: 0;
+    margin-top: 0px;
+    padding: 0;
+    float: left;
+    font-family: Arial,'微软雅黑';
+    font-size: 14px;
+    text-indent: 20px;
+    margin-top: 39px;
+}
+#checker_txing {
+    width: 280px;
+    height: 46px;
+    line-height: 46px;
+    background: none;
+    border: 1px solid #000;
+    margin: 0;
+    margin-top: 0px;
+    padding: 0;
+    float: left;
+    font-family: Arial,'微软雅黑';
+    font-size: 14px;
+    text-indent: 20px;
+    margin-top: 20px;
+}
+#yanzhengtxing {
+    cursor: pointer;
+    text-align: center;
+    width: 156px;
+    height: 46px;
+    border: 1px solid #000;
+    border-left-color: rgb(0, 0, 0);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left: none;
+    margin: 0;
+    margin-top: 0px;
+    padding: 0;
+    float: left;
+    font-family: Arial,'微软雅黑';
+    font-size: 14px;
+    color: #000;
+    margin-top: 20px;
+}
+#yanzhengtxing {
+    cursor: pointer;
+    text-align: center;
+    font-family: Arial,'微软雅黑';
+    font-size: 14px;
+    color: #000;
+}
+#checker_str, #checker_txing {
+    width: 280px;
+    height: 46px;
+    line-height: 46px;
+    background: none;
+    border: 1px solid #000;
+    margin: 0;
+    margin-top: 0px;
+    padding: 0;
+    float: left;
+    font-family: Arial,'微软雅黑';
+    font-size: 14px;
+    text-indent: 20px;
+    margin-top: 20px;
+}
+#get_checknum {
+    cursor: pointer;
+    text-align: center;
+    width: 158px;
+    height: 48px;
+    line-height: 48px;
+    background: #f0d9d3;
+    border: 1px solid #000;
+    border-left-color: rgb(0, 0, 0);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left: none;
+    margin: 0;
+    margin-top: 0px;
+    padding: 0;
+    float: left;
+    font-family: Arial,'微软雅黑';
+    font-size: 14px;
+    color: #000;
+    margin-top: 20px;
+}
+#logphone_submit, #logpassword_submit {
+    background: #000;
+    color: #fff;
+    width: 440px;
+    height: 48px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    float: left;
+    margin-top: 39px;
+    font-family: Arial,'微软雅黑';
+    font-size: 14px;
+    color: #fff;
+}
+.pas_error {
+    font-family: Arial,'微软雅黑';
+    font-size: 14px;
+    color: rgb(236, 67, 0);
+    position: absolute;
+    top: 178px;
+    right: 20px;
+    z-index: 5;
+}
+#password_str {
+    width: 438px;
+    height: 46px;
+    line-height: 46px;
+    background: none;
+    border: 1px solid #000;
+    margin: 0;
+    margin-top: 0px;
+    padding: 0;
+    float: left;
+    font-family: Arial,'微软雅黑';
+    font-size: 14px;
+    text-indent: 20px;
+    margin-top: 20px;
+}
+.clearHeight {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    clear: both;
+}
+.auth_checkbox {
+    width: 25px;
+    height: 25px;
+    float: left;
+    position: relative;
+}
+.forgetpassword {
+    font-family: Arial,'微软雅黑';
+    font-size: 14px;
+    color: #000;
+    float: right;
+}
+#footer{
+    width: 100%;
+    height: 650px;
+    background:#f9ece1
+}
+#footer .footer-con{
+    width: 1200px;
+    height: 650px;
+    margin: 0 auto;
+    /* background:pink */
+}
+#footer .box1{
+    margin-top: 100px;
+    width: 1200px;
+    float: left;
+}
+#footer ul{
+    float: left;
+    width: 120px;
+}
+#footer ol{
+    float: right;
+}
+#footer li.one{
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 35px;
+    
+}
+#footer li{
+    font-size: 14px;
+    line-height: 35px;
+    color: #000;
+    cursor: pointer;
+}
+#footer .box2 {
+    float: left;
+     width: 1200px;
+     margin-top: 30px;
+}
+#footer .box2 ul{
+    float: left;
+    width: 1200px;
+}
+#footer .box2 li{
+    float: left;
+    font-size: 12px;
+    line-height: 40px;
+    color: #666;
+    cursor: pointer;
+}
+#footer .box2 p{
+    font-size: 12px;
+    line-height: 30px;
+    color: #666;
+    cursor: pointer;
+}
+#footer .lj a{
+    width: 1200px;
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 35px; 
+    color: #000;
+    float: left;
+}
+#footer .box3 ul{
+    width:400px;
+}
+#footer .box3 ul li{
+    float: left;
+    font-size: 12px;
+    line-height: 30px;
+    color: #666;
+    cursor: pointer;
+    margin-right: 15px;
+}
+#footer .tp{
+    margin-top: 50px;
+   width: 1200px;
+   float: left;
+}
+#footer .tp ul{
+    float: left;
+    width: 700px
+}
+#footer .tp a{
+    float: left;
+    margin-right: 5px;
+}

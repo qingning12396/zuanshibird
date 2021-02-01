@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>小鸟商品列表</title>
+    <link rel="stylesheet" href="css/goodsList.css">
+</head>
+
+<body>
+    <div class="pg-title">
+        <div style="width: 1200px;margin: 0 auto">
+            <div style="float: left">*收藏本站</div>
+            <div style="float: right">
+                <div class="dt">
+                    <a>登录</a>
+                </div>
+                <div class="dt">
+                    <a>注册</a>
+                </div>
+                <div class="dt">
+                    <a>我的订单</a>
+                </div>
+                <div class="dt">
+                    <a>我的收藏</a>
+                </div>
+                <div class="dt">
+                    <a>VIP会员</a>
+                </div>
+                <div class="dt">
+                    <a>关注</a>
+                </div>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+    </div>
+    <!--Logo栏-->
+    <div class="pg-logo">
+        <!--搜索框 购物车栏-->
+        <div style="width: 1200px;margin: 0 auto">
+            <div style="width: 250px;float: left">
+                <img style="height: 100px;width: 100px;margin-top: 12px" src="images/index-logo.jpg">
+            </div>
+            <div style="height: 100px;float: left;margin-top:20px;margin-left: 100px">
+                <input style="height: 35px;width: 330px;" type="text" />
+                <div style="margin: -35px;margin-left: 0;">
+                    <samp style="color: red;font-weight: bold;font-size: 15px">热门搜索：</samp>
+                    <a style="margin-left: 10px;color: #7d7d7d">对戒</a>
+                    <a style="margin-left: 10px;color: #7d7d7d">项链</a>
+                </div>
+            </div>
+            <div style="margin-top:34px;float: left">
+                <img style="height: 41px;" src="images/icon_search.jpg">
+            </div>
+            <div style="margin-top:35px;float: right;border: 1px solid #dddddd;
+                 height: 45px;width: 120px;
+                text-align: center;line-height: 45px">
+                我的购物车
+                <img style="margin: 0" src="images/icon_car.jpg" />
+            </div>
+            <div style="clear: both"></div>
+        </div>
+    </div>
+    <!--类目栏-->
+    <div class="category">
+        <!--类目栏-->
+        <div style="width: 1200px;margin: 21px auto">
+            <div style="float: left;width: 70%">
+                <div class="category_item" style="width: 30%">
+                    <a>全部商品列表</a>
+                    <div style="border: 1px solid #dddddd;float: left;width: 100%">
+                        <div style="color: red;float: left">戒指:</div>
+                        <br/>
+                        <a class="product">小花戒</a>
+                        <a class="product">排钻戒</a>
+                        <a class="product">心型戒</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd;float: left;width: 100%">
+                        <div style="color: red;float: left">项链:</div>
+                        <br/>
+                        <a class="product">幸运星</a>
+                        <a class="product">四叶草</a>
+                        <a class="product">小蛮腰</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd;float: left;width: 100%">
+                        <div style="color: red;float: left">饰品:</div>
+                        <br/>
+                        <a class="product">钻石定制</a>
+                        <a class="product">项链</a>
+                        <a class="product">钻戒</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd;float: left;width: 100%;margin-top: 10%">
+                        <div style="color: red;float: left">热销排行榜:</div>
+                        <br/>
+                        <a class="product">对戒</a>
+                        <a class="product">项链</a>
+                        <a class="product">婚戒</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd;float: left;width: 100%">
+                        <div style="color: black;float: left">Content</div>
+                    </div>
+                </div>
+                <div class="category_item" style="margin-left: 5px;width: 8%">
+                    <a>首页</a>
+                </div>
+                <div class="category_item" style="margin-left: 5px;width: 8%">
+                    <a>钻石配饰</a>
+                </div>
+                <div class="category_item" style="margin-left: 5px;width: 8%">
+                    <a>项链</a>
+                </div>
+                <div class="category_item" style="margin-left: 5px;width: 8%">
+                    <a>戒指</a>
+                </div>
+                <div class="category_item" style="margin-left: 5px;width: 8%">
+                    <a>小鸟会员</a>
+                </div>
+                <div class="category_item" style="margin-left: 5px;width: 8%">
+                    <a>客户服务</a>
+                </div>
+            </div>
+            <div style="float: right;width: 20%">
+                <div class="category_item" style="margin-left: 5px;width: 30%">
+                    <a>客户服务</a>
+                </div>
+                <div class="category_item" style="margin-left: 5px;width: 30%">
+                    <a>猜你喜欢</a>
+                </div>
+                <div class="category_item" style="margin-left: 5px;width: 30%">
+                    <a>购物车</a>
+                </div>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+        <!--已选产品和规格-->
+        <div style="margin-left: 22%;margin-top: 1%;width: 70%">
+            <div style="color: black">钻石>心型>克拉钻</div>
+            <div class="border" style="margin-top: 1%;height: 200px">
+                <div style="color: black;height: 25%;line-height: 60px">您已选择：
+                    <samp class="apple">戒指</samp>
+                </div>
+                <div style="color: black;height: 25%;line-height: 60px;margin-left: 2%">材质：
+                    <samp class="apple">18k金材质</samp>
+                    <samp class="apple">pt铂金材质</samp>
+                    <samp class="apple">珐琅材质</samp>
+                </div>
+                <div style="color: black;height: 25%;line-height: 60px;margin-left: 2%">品牌：
+                    <samp class="apple">钻石小鸟</samp>
+                    <samp class="apple">钻石小鸟</samp>
+                    <samp class="apple">钻石小鸟</samp>
+                </div>
+                <div style="color: black;height: 25%;line-height: 60px;margin-left: 2%">风格：
+                    <samp class="apple">into悦色系列</samp>
+                    <samp class="apple">两人一世界系列</samp>
+                    <samp class="apple">you&me系列</samp>
+                </div>
+            </div>
+        </div>
+        <!--排序-->
+        <div style="margin-left: 22%;margin-top: 1%;width: 70%">
+            <div style="border: 1px solid #dddddd;height: 40px">
+                <div style="float: left;width: 65%">
+                    <samp class="sorting" style="margin-left: 2%">排序:</samp>
+                    <samp class="sorting" style="margin-left: 5%;color: blue">价格↑</samp>
+                    <samp class="sorting" style="margin-left: 5%;color: blue">销量↑</samp>
+                    <samp class="sorting" style="margin-left: 5%;color: blue">最新↑</samp>
+                </div>
+                <div style="float: right;width: 35%">
+                    <div class="sorting" style="margin-left: 35%;color: red;float: left">共x件商品</div>
+                    <div class="sorting" style="margin-left: 5%;color: red;float: left;">1
+                        <samp style="color: black">/675</samp>
+                    </div>
+                    <input type="submit" value="<" style="height: 30px;margin-left: 5%;margin-top: 5px" />
+                    <input type="submit" value=">" style="height: 30px;line-height: 10px;margin-top: 5px" />
+                </div>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+        <!--商品首页图-->
+        <div style="margin-left: 22%;margin-top: 1%;width: 70%;height: 1400px">
+            <div class="product_item">
+                <div style="height: 300px;width: 300px">
+                    <a href="">
+                        <img src="picture/11.gif" style="width: 300px;height: 300px">
+                    </a>
+                </div>
+                <div style="color: black;text-align: center;margin-top: 10px;">
+                    点滴时光 售出：2176件 评论：135
+                </div>
+                <div style="height: 50px;width: 100px;float: left; margin-top:20px">
+                    <samp style="color: red;font-weight: bold;font-size: 20px;
+                line-height: 50px;margin-left: 10%;">$2880.00</samp>
+                </div>
+                <div style="height: 50px;width: 180px;float: right;margin-top:20px">
+                    <div style="border: 1px solid #dddddd;width: 125px;float: left;margin-top: 10px;height: 25px;">
+                        <div class="add_subtract">-</div>
+                        <div style="float: left;color: #7d7d7d;line-height: 25px">1</div>
+                        <div class="add_subtract" style="float: right">+</div>
+                    </div>
+                    <input style="background-color: red;color: white;
+                width: 30px;margin-left: 1%;margin-top: 7px;height: 30px" type="submit" value="买" />
+                </div>
+            </div>
+            <div class="product_item">
+                <div style="height: 300px;width: 300px">
+                    <a href="">
+                        <img src="picture/22.gif" style="width: 300px;height: 300px">
+                    </a>
+                </div>
+                <div style="color: black;text-align: center;margin-top: 10px;">
+                    梵希之恋 售出：3340件 评论：58
+                </div>
+                <div style="height: 50px;width: 100px;float: left; margin-top:20px">
+                    <samp style="color: red;font-weight: bold;font-size: 20px;
+                        line-height: 50px;margin-left: 10%;">$5630.00</samp>
+                </div>
+                <div style="height: 50px;width: 180px;float: right;margin-top:20px">
+                    <div style="border: 1px solid #dddddd;width: 125px;float: left;margin-top: 10px;height: 25px;">
+                        <div class="add_subtract">-</div>
+                        <div style="float: left;color: #7d7d7d;line-height: 25px">1</div>
+                        <div class="add_subtract" style="float: right">+</div>
+                    </div>
+                    <input style="background-color: red;color: white;
+                        width: 30px;margin-left: 1%;margin-top: 7px;height: 30px" type="submit" value="买" />
+                </div>
+            </div>
+            <div class="product_item">
+                <div style="height: 300px;width: 300px">
+                    <a href="">
+                        <img src="picture/33.gif" style="width: 300px;height: 300px">
+                    </a>
+                </div>
+                <div style="color: black;text-align: center;margin-top: 10px;">
+                    臻言诠释 售出：1138件 评论：223
+                </div>
+                <div style="height: 50px;width: 100px;float: left; margin-top:20px">
+                    <samp style="color: red;font-weight: bold;font-size: 20px;
+                                line-height: 50px;margin-left: 10%;">$3580.00</samp>
+                </div>
+                <div style="height: 50px;width: 180px;float: right;margin-top:20px">
+                    <div style="border: 1px solid #dddddd;width: 125px;float: left;margin-top: 10px;height: 25px;">
+                        <div class="add_subtract">-</div>
+                        <div style="float: left;color: #7d7d7d;line-height: 25px">1</div>
+                        <div class="add_subtract" style="float: right">+</div>
+                    </div>
+                    <input style="background-color: red;color: white;
+                                width: 30px;margin-left: 1%;margin-top: 7px;height: 30px" type="submit" value="买" />
+                </div>
+            </div>
+            <div class="product_item">
+                <div style="height: 300px;width: 300px">
+                    <a href="">
+                        <img src="picture/44.gif" style="width: 300px;height: 300px">
+                    </a>
+                </div>
+                <div style="color: black;text-align: center;margin-top: 10px;">
+                    守诺甄言 售出：3542件 评论：112
+                </div>
+                <div style="height: 50px;width: 100px;float: left; margin-top:20px">
+                    <samp style="color: red;font-weight: bold;font-size: 20px;
+                                        line-height: 50px;margin-left: 10%;">$5290.00</samp>
+                </div>
+                <div style="height: 50px;width: 180px;float: right;margin-top:20px">
+                    <div style="border: 1px solid #dddddd;width: 125px;float: left;margin-top: 10px;height: 25px;">
+                        <div class="add_subtract">-</div>
+                        <div style="float: left;color: #7d7d7d;line-height: 25px">1</div>
+                        <div class="add_subtract" style="float: right">+</div>
+                    </div>
+                    <input style="background-color: red;color: white;
+                                        width: 30px;margin-left: 1%;margin-top: 7px;height: 30px" type="submit" value="买"
+                    />
+                </div>
+            </div>
+            <div class="product_item">
+                <div style="height: 300px;width: 300px">
+                    <a href="">
+                        <img src="picture/55.gif" style="width: 300px;height: 300px">
+                    </a>
+                </div>
+                <div style="color: black;text-align: center;margin-top: 10px;">
+                    聆听 售出：4216件 评价：1234
+                </div>
+                <div style="height: 50px;width: 100px;float: left; margin-top:20px">
+                    <samp style="color: red;font-weight: bold;font-size: 20px;
+                                                line-height: 50px;margin-left: 10%;">$4380.00</samp>
+                </div>
+                <div style="height: 50px;width: 180px;float: right;margin-top:20px">
+                    <div style="border: 1px solid #dddddd;width: 125px;float: left;margin-top: 10px;height: 25px;">
+                        <div class="add_subtract">-</div>
+                        <div style="float: left;color: #7d7d7d;line-height: 25px">1</div>
+                        <div class="add_subtract" style="float: right">+</div>
+                    </div>
+                    <input style="background-color: red;color: white;
+                                                width: 30px;margin-left: 1%;margin-top: 7px;height: 30px" type="submit"
+                        value="买" />
+                </div>
+            </div>
+            <div class="product_item">
+                <div style="height: 300px;width: 300px">
+                    <a href="">
+                        <img src="picture/66.gif" style="width: 300px;height: 300px">
+                    </a>
+                </div>
+                <div style="color: black;text-align: center;margin-top: 10px;">
+                    爱河 售出：5210件 评论：345
+                </div>
+                <div style="height: 50px;width: 100px;float: left; margin-top:20px">
+                    <samp style="color: red;font-weight: bold;font-size: 20px;
+                                                        line-height: 50px;margin-left: 10%;">$2610.00</samp>
+                </div>
+                <div style="height: 50px;width: 180px;float: right;margin-top:20px">
+                    <div style="border: 1px solid #dddddd;width: 125px;float: left;margin-top: 10px;height: 25px;">
+                        <div class="add_subtract">-</div>
+                        <div style="float: left;color: #7d7d7d;line-height: 25px">1</div>
+                        <div class="add_subtract" style="float: right">+</div>
+                    </div>
+                    <input style="background-color: red;color: white;
+                                                        width: 30px;margin-left: 1%;margin-top: 7px;height: 30px" type="submit"
+                        value="买" />
+                </div>
+            </div>
+            <div class="product_item">
+                <div style="height: 300px;width: 300px">
+                    <a href="">
+                        <img src="picture/77.gif" style="width: 300px;height: 300px">
+                    </a>
+                </div>
+                <div style="color: black;text-align: center;margin-top: 10px;">
+                    简爱 售出：2178件 评论：256
+                </div>
+                <div style="height: 50px;width: 100px;float: left; margin-top:20px">
+                    <samp style="color: red;font-weight: bold;font-size: 20px;
+                                                                line-height: 50px;margin-left: 10%;">$3344.00</samp>
+                </div>
+                <div style="height: 50px;width: 180px;float: right;margin-top:20px">
+                    <div style="border: 1px solid #dddddd;width: 125px;float: left;margin-top: 10px;height: 25px;">
+                        <div class="add_subtract">-</div>
+                        <div style="float: left;color: #7d7d7d;line-height: 25px">1</div>
+                        <div class="add_subtract" style="float: right">+</div>
+                    </div>
+                    <input style="background-color: red;color: white;
+                                                                width: 30px;margin-left: 1%;margin-top: 7px;height: 30px"
+                        type="submit" value="买" />
+                </div>
+            </div>
+            <div class="product_item">
+                <div style="height: 300px;width: 300px">
+                    <a href="">
+                        <img src="picture/by.jpg" style="width: 300px;height: 300px">
+                    </a>
+                </div>
+                <div style="color: black;text-align: center;margin-top: 10px;">
+                    比翼 售出：4463件 评论：256
+                </div>
+                <div style="height: 50px;width: 100px;float: left; margin-top:20px">
+                    <samp style="color: red;font-weight: bold;font-size: 20px;
+                                                                    line-height: 50px;margin-left: 10%;">$9790.00</samp>
+                </div>
+                <div style="height: 50px;width: 180px;float: right;margin-top:20px">
+                    <div style="border: 1px solid #dddddd;width: 125px;float: left;margin-top: 10px;height: 25px;">
+                        <div class="add_subtract">-</div>
+                        <div style="float: left;color: #7d7d7d;line-height: 25px">1</div>
+                        <div class="add_subtract" style="float: right">+</div>
+                    </div>
+                    <input style="background-color: red;color: white;
+                                                                    width: 30px;margin-left: 1%;margin-top: 7px;height: 30px"
+                        type="submit" value="买" />
+                </div>
+            </div>
+            <div class="product_item">
+                <div style="height: 300px;width: 300px">
+                    <a href="">
+                        <img src="picture/88.gif" style="width: 300px;height: 300px">
+                    </a>
+                </div>
+                <div style="color: black;text-align: center;margin-top: 10px;">
+                    心宿 售出：3178件 评论：556
+                </div>
+                <div style="height: 50px;width: 100px;float: left; margin-top:20px">
+                    <samp style="color: red;font-weight: bold;font-size: 20px;
+                                                                        line-height: 50px;margin-left: 10%;">$5620.00</samp>
+                </div>
+                <div style="height: 50px;width: 180px;float: right;margin-top:20px">
+                    <div style="border: 1px solid #dddddd;width: 125px;float: left;margin-top: 10px;height: 25px;">
+                        <div class="add_subtract">-</div>
+                        <div style="float: left;color: #7d7d7d;line-height: 25px">1</div>
+                        <div class="add_subtract" style="float: right">+</div>
+                    </div>
+                    <input style="background-color: red;color: white;
+                                                                        width: 30px;margin-left: 1%;margin-top: 7px;height: 30px"
+                        type="submit" value="买" />
+                </div>
+            </div>
+            <div class="product_item">
+                <div style="height: 300px;width: 300px">
+                    <a href="">
+                        <img src="picture/lj.jpg" style="width: 300px;height: 300px">
+                    </a>
+                </div>
+                <div style="color: black;text-align: center;margin-top: 10px;">
+                    情丝 售出：3344件 评论：1256
+                </div>
+                <div style="height: 50px;width: 100px;float: left; margin-top:20px">
+                    <samp style="color: red;font-weight: bold;font-size: 20px;
+                                                                            line-height: 50px;margin-left: 10%;">$2440.00</samp>
+                </div>
+                <div style="height: 50px;width: 180px;float: right;margin-top:20px">
+                    <div style="border: 1px solid #dddddd;width: 125px;float: left;margin-top: 10px;height: 25px;">
+                        <div class="add_subtract">-</div>
+                        <div style="float: left;color: #7d7d7d;line-height: 25px">1</div>
+                        <div class="add_subtract" style="float: right">+</div>
+                    </div>
+                    <input style="background-color: red;color: white;
+                                                                            width: 30px;margin-left: 1%;margin-top: 7px;height: 30px"
+                        type="submit" value="买" />
+                </div>
+            </div>
+            <div class="product_item">
+                <div style="height: 300px;width: 300px">
+                    <a href="">
+                        <img src="picture/lxxr.jpg" style="width: 300px;height: 300px">
+                    </a>
+                </div>
+                <div style="color: black;text-align: center;margin-top: 10px;">
+                    两心相融 售出：2078件 评论：756
+                </div>
+                <div style="height: 50px;width: 100px;float: left; margin-top:20px">
+                    <samp style="color: red;font-weight: bold;font-size: 20px;
+                                                                                line-height: 50px;margin-left: 10%;">$7440.00</samp>
+                </div>
+                <div style="height: 50px;width: 180px;float: right;margin-top:20px">
+                    <div style="border: 1px solid #dddddd;width: 125px;float: left;margin-top: 10px;height: 25px;">
+                        <div class="add_subtract">-</div>
+                        <div style="float: left;color: #7d7d7d;line-height: 25px">1</div>
+                        <div class="add_subtract" style="float: right">+</div>
+                    </div>
+                    <input style="background-color: red;color: white;
+                                                                                width: 30px;margin-left: 1%;margin-top: 7px;height: 30px"
+                        type="submit" value="买" />
+                </div>
+            </div>
+            <div class="product_item">
+                <div style="height: 300px;width: 300px">
+                    <a href="">
+                        <img src="picture/nnxy.jpg" style="width: 300px;height: 300px">
+                    </a>
+                </div>
+                <div style="color: black;text-align: center;margin-top: 10px;">
+                    呢喃心语 售出：379件 评论：2
+                </div>
+                <div style="height: 50px;width: 100px;float: left; margin-top:20px">
+                    <samp style="color: red;font-weight: bold;font-size: 20px;
+                                                                                    line-height: 50px;margin-left: 10%;">$5470.00</samp>
+                </div>
+                <div style="height: 50px;width: 180px;float: right;margin-top:20px">
+                    <div style="border: 1px solid #dddddd;width: 125px;float: left;margin-top: 10px;height: 25px;">
+                        <div class="add_subtract">-</div>
+                        <div style="float: left;color: #7d7d7d;line-height: 25px">1</div>
+                        <div class="add_subtract" style="float: right">+</div>
+                    </div>
+                    <input style="background-color: red;color: white;
+                                                                                    width: 30px;margin-left: 1%;margin-top: 7px;height: 30px"
+                        type="submit" value="买" />
+                </div>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
