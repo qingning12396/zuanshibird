@@ -1,1 +1,1 @@
-# zuanshibird
+# zuanshibirdE:\PHPnow-1.5.6\htdocs\zuanshibird\cssE:\PHPnow-1.5.6\htdocs\zuanshibird\imagesE:\PHPnow-1.5.6\htdocs\zuanshibird\jsE:\PHPnow-1.5.6\htdocs\zuanshibird\pictureE:\PHPnow-1.5.6\htdocs\zuanshibird\goodsList.htmlE:\PHPnow-1.5.6\htdocs\zuanshibird\index.htmlE:\PHPnow-1.5.6\htdocs\zuanshibird\login.htmlE:\PHPnow-1.5.6\htdocs\zuanshibird\registe.htmlE:\PHPnow-1.5.6\htdocs\zuanshibird\shoppingCart.html
